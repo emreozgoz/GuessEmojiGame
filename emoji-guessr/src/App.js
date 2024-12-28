@@ -1,11 +1,11 @@
 import React from 'react';
-import WordleOyunu from './components/WordleOyunu';  // Yolu düzelttik
 import './App.css';
+import Kelimoji from './components/kelimoji';
 
 function App() {
   return (
     <div className="App">
-      <WordleOyunu />
+      <Kelimoji />
     </div>
   );
 }
