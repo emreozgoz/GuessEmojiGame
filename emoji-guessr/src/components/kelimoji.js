@@ -18,7 +18,10 @@ const Kelimoji = () => {
 
   useEffect(() => {
     const rastgeleSoru = data.data[Math.floor(Math.random() * data.data.length)];
-    setSecilenSoru(rastgeleSoru);
+    setSecilenSoru({
+      ...rastgeleSoru,
+      cevap: rastgeleSoru.cevap.toUpperCase() // Cevabı uppercase yapıyoruz
+    });
   }, []);
 
   useEffect(() => {
@@ -27,125 +30,133 @@ const Kelimoji = () => {
     const handleKeyPress = (event) => {
       if (oyunDurumu !== 'devam') return;
 
-      const turkceKarakterler = {
-        'i': 'İ',
-        'ı': 'I',
-        'ğ': 'Ğ',
-        'ü': 'Ü',
-        'ş': 'Ş',
-        'ö': 'Ö',
-        'ç': 'Ç'
-      };
-
-      if (event.key === 'Enter') {
+      const key = event.key.toUpperCase(); // Tuş girişini uppercase yapıyoruz
+      
+      if (key === 'ENTER') {
         tahminKontrol();
-      } else if (event.key === 'Backspace') {
-        harfSil();
-      } else {
-        const harf = event.key.toUpperCase();
-        const turkceHarf = turkceKarakterler[event.key] || harf;
-        
-        if (/^[A-ZÇĞİÖŞÜ]$/.test(turkceHarf)) {
-          harfEkle(turkceHarf);
-        }
+      } else if (key === 'BACKSPACE') {
+        setAktifTahmin(prev => prev.slice(0, -1));
+      } else if (/^[A-ZÇĞİÖŞÜ]$/.test(key) && aktifTahmin.length < secilenSoru.cevap.length) {
+        setAktifTahmin(prev => prev + key); // Uppercase harf ekliyoruz
       }
     };
 
     window.addEventListener('keydown', handleKeyPress);
-
-    return () => {
-      window.removeEventListener('keydown', handleKeyPress);
-    };
+    return () => window.removeEventListener('keydown', handleKeyPress);
   }, [secilenSoru, aktifTahmin, oyunDurumu]);
 
   const harfEkle = (harf) => {
     if (!secilenSoru) return;
     
-    if (aktifTahmin.length < secilenSoru.cevap.length && harf !== 'ENTER' && harf !== 'SİL') {
-      setAktifTahmin(prev => prev + harf);
+    if (harf === 'ENTER') {
+      tahminKontrol();
+    } else if (harf === 'SİL') {
+      setAktifTahmin(prev => prev.slice(0, -1));
+    } else if (aktifTahmin.length < secilenSoru.cevap.length) {
+      setAktifTahmin(prev => prev + harf.toUpperCase()); // Harfi uppercase yaparak ekliyoruz
     }
-  };
-
-  const harfSil = () => {
-    setAktifTahmin(prev => prev.slice(0, -1));
   };
 
   const tahminKontrol = () => {
     if (!secilenSoru) return;
-
-    if (aktifTahmin.length !== secilenSoru.cevap.length) {
+    
+    const upperTahmin = aktifTahmin.toUpperCase(); // Tahmini uppercase yapıyoruz
+    
+    if (upperTahmin.length !== secilenSoru.cevap.length) {
       alert(`Lütfen ${secilenSoru.cevap.length} harfli bir kelime girin!`);
       return;
     }
 
-    const dogruCevap = secilenSoru.cevap.toUpperCase();
-    const yeniKullanilmisHarfler = { ...kullanilmisHarfler };
+    const yeniTahmin = upperTahmin.split('').map((harf, index) => ({
+      harf,
+      durum: 'beklemede'
+    }));
 
-    const sonuc = aktifTahmin.split('').map((harf, index) => {
-      if (harf === dogruCevap[index]) {
-        yeniKullanilmisHarfler[harf] = 'dogru';
-        return { harf, durum: 'dogru' };
-      } else if (dogruCevap.includes(harf)) {
-        if (yeniKullanilmisHarfler[harf] !== 'dogru') {
-          yeniKullanilmisHarfler[harf] = 'var';
-        }
-        return { harf, durum: 'var' };
-      } else {
-        yeniKullanilmisHarfler[harf] = 'yanlis';
-        return { harf, durum: 'yanlis' };
+    const hedefKelime = secilenSoru.cevap.split('');
+    const kullanildi = new Array(hedefKelime.length).fill(false);
+
+    // İlk geçiş: Doğru yerdeki harfleri bul
+    yeniTahmin.forEach((tahmin, i) => {
+      if (tahmin.harf === hedefKelime[i]) {
+        yeniTahmin[i].durum = 'dogru';
+        kullanildi[i] = true;
       }
     });
 
-    setKullanilmisHarfler(yeniKullanilmisHarfler);
-    const yeniTahminler = [...tahminler, sonuc];
-    setTahminler(yeniTahminler);
+    // İkinci geçiş: Yanlış yerdeki harfleri bul
+    yeniTahmin.forEach((tahmin, i) => {
+      if (tahmin.durum === 'beklemede') {
+        const hedefIndex = hedefKelime.findIndex((h, j) => h === tahmin.harf && !kullanildi[j]);
+        if (hedefIndex !== -1) {
+          yeniTahmin[i].durum = 'var';
+          kullanildi[hedefIndex] = true;
+        } else {
+          yeniTahmin[i].durum = 'yanlis';
+        }
+      }
+    });
+
+    const yeniTahminlerDizisi = [...tahminler, yeniTahmin];
+    setTahminler(yeniTahminlerDizisi);
     setAktifTahmin('');
 
-    if (aktifTahmin === dogruCevap) {
-      setOyunDurumu('kazandi');
-    } else if (yeniTahminler.length >= SATIR_SAYISI) {
-      setOyunDurumu('kaybetti');
-    }
-  };
+    // Harfleri sırayla çevir
+    const sonTahminIndex = yeniTahminlerDizisi.length - 1;
+    yeniTahmin.forEach((_, index) => {
+      setTimeout(() => {
+        const harfElementi = document.querySelector(
+          `.tahmin-satiri:nth-child(${sonTahminIndex + 1}) .harf:nth-child(${index + 1})`
+        );
+        if (harfElementi) {
+          harfElementi.classList.add('reveal');
+        }
+      }, index * 300);
+    });
 
-  const klavyeTusunaBasildi = (harf) => {
-    if (oyunDurumu !== 'devam') return;
+    // Oyun durumunu kontrol et
+    setTimeout(() => {
+      if (yeniTahmin.every(t => t.durum === 'dogru')) {
+        setOyunDurumu('kazandi');
+      } else if (yeniTahminlerDizisi.length >= SATIR_SAYISI) {
+        setOyunDurumu('kaybetti');
+      }
+    }, yeniTahmin.length * 300);
 
-    if (harf === 'ENTER') {
-      tahminKontrol();
-    } else if (harf === 'SİL') {
-      harfSil();
-    } else {
-      harfEkle(harf);
-    }
+    // Klavye renklerini güncelle
+    const yeniKullanilmisHarfler = { ...kullanilmisHarfler };
+    yeniTahmin.forEach(({ harf, durum }) => {
+      const mevcutDurum = yeniKullanilmisHarfler[harf];
+      if (durum === 'dogru' || (durum === 'var' && mevcutDurum !== 'dogru') || 
+          (durum === 'yanlis' && !mevcutDurum)) {
+        yeniKullanilmisHarfler[harf] = durum;
+      }
+    });
+    setKullanilmisHarfler(yeniKullanilmisHarfler);
   };
 
   const renderTahminSatirlari = () => {
-    if (!secilenSoru) return null;
-
     const satirlar = [];
-    const harfSayisi = secilenSoru.cevap.length;
     
     // Yapılan tahminler
     for (let i = 0; i < tahminler.length; i++) {
       satirlar.push(
-        <div key={`tahmin-${i}`} className="tahmin-satiri">
-          {tahminler[i].map((harf, harfIndex) => (
-            <div key={harfIndex} className={`harf ${harf.durum}`}>
-              {harf.harf}
+        <div key={i} className="tahmin-satiri">
+          {tahminler[i].map((tahmin, j) => (
+            <div key={j} className={`harf ${tahmin.durum}`}>
+              {tahmin.harf}
             </div>
           ))}
         </div>
       );
     }
     
-    // Aktif tahmin satırı
+    // Aktif tahmin
     if (tahminler.length < SATIR_SAYISI) {
       satirlar.push(
         <div key="aktif" className="tahmin-satiri">
-          {Array(harfSayisi).fill(null).map((_, index) => (
-            <div key={index} className="harf">
-              {aktifTahmin[index] || ''}
+          {[...aktifTahmin.padEnd(secilenSoru.cevap.length)].map((harf, i) => (
+            <div key={i} className={`harf ${harf === ' ' ? 'bos' : ''}`}>
+              {harf !== ' ' ? harf : ''}
             </div>
           ))}
         </div>
@@ -153,11 +164,11 @@ const Kelimoji = () => {
     }
     
     // Kalan boş satırlar
-    for (let i = tahminler.length + 1; i < SATIR_SAYISI; i++) {
+    for (let i = satirlar.length; i < SATIR_SAYISI; i++) {
       satirlar.push(
-        <div key={`bos-${i}`} className="tahmin-satiri">
-          {Array(harfSayisi).fill(null).map((_, index) => (
-            <div key={index} className="harf bos"></div>
+        <div key={i} className="tahmin-satiri">
+          {[...Array(secilenSoru.cevap.length)].map((_, j) => (
+            <div key={j} className="harf bos"></div>
           ))}
         </div>
       );
@@ -169,15 +180,13 @@ const Kelimoji = () => {
   const renderKlavye = () => {
     return (
       <div className="klavye">
-        {KLAVYE_SATIRLARI.map((satir, satirIndex) => (
-          <div key={satirIndex} className="klavye-satiri">
+        {KLAVYE_SATIRLARI.map((satir, i) => (
+          <div key={i} className="klavye-satiri">
             {satir.map((harf) => (
               <button
                 key={harf}
-                className={`klavye-tus ${kullanilmisHarfler[harf] || ''} ${
-                  harf === 'ENTER' || harf === 'SİL' ? 'genis-tus' : ''
-                }`}
-                onClick={() => klavyeTusunaBasildi(harf)}
+                className={`klavye-tus ${harf === 'ENTER' || harf === 'SİL' ? 'genis-tus' : ''} ${kullanilmisHarfler[harf] || ''}`}
+                onClick={() => harfEkle(harf)}
                 disabled={oyunDurumu !== 'devam'}
               >
                 {harf}
@@ -198,21 +207,18 @@ const Kelimoji = () => {
           <div className="emojiler">{secilenSoru.emojiler}</div>
           <div className="ipucu-container">
             <div className="kategori">Kategori: {secilenSoru.kategori}</div>
+            <div className="zorluk">Zorluk: {secilenSoru.zorluk}</div>
             <div className="aciklama">İpucu: {secilenSoru.aciklama}</div>
           </div>
         </div>
       </div>
       
-
       <div className="tahminler">
         {renderTahminSatirlari()}
       </div>
-  
+
       {renderKlavye()}
-  
-    
-  
-      {/* Popup'lar */}
+
       {oyunDurumu !== 'devam' && (
         <div className="popup-overlay">
           <div className={`popup ${oyunDurumu}`}>

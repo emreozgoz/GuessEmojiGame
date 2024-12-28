@@ -1,1524 +1,175 @@
-{
-  "data": [
-    {
-      "id": 1,
-      "kategori": "Film",
-      "emojiler": "\ud83e\udd81\ud83d\udc51",
-      "cevap": "Aslan Kral",
-      "zorluk": "Kolay",
-      "aciklama": "Popüler bir animasyon filmi."
-    },
-    {
-      "id": 2,
-      "kategori": "Atasözü",
-      "emojiler": "\ud83d\udc26\u23f0",
-      "cevap": "Erken kalkan yol alır",
-      "zorluk": "Kolay",
-      "aciklama": "Başarılı olmak için erkenden harekete geçmek gerekir."
-    },
-    {
-      "id": 3,
-      "kategori": "Yemek",
-      "emojiler": "\ud83c\udf46\ud83c\udf45",
-      "cevap": "İmam Bayıldı",
-      "zorluk": "Orta",
-      "aciklama": "Zeytinyağlı bir patlıcan yemeği."
-    },
-    {
-      "id": 4,
-      "kategori": "Şarkı",
-      "emojiler": "\ud83c\udfb6\ud83c\udf19",
-      "cevap": "Ay Tenli Kadın",
-      "zorluk": "Kolay",
-      "aciklama": "Popüler bir Türkçe şarkı."
-    },
-    {
-      "id": 5,
-      "kategori": "Şehir",
-      "emojiler": "\ud83c\udf7b\ud83c\udff0",
-      "cevap": "Kars",
-      "zorluk": "Kolay",
-      "aciklama": "Doğu Anadolu'da bir il."
-    },
-    {
-      "id": 6,
-      "kategori": "Film",
-      "emojiler": "\ud83c\udf4e\ud83c\udff0",
-      "cevap": "Pamuk Prenses ve Yedi Cüceler",
-      "zorluk": "Kolay",
-      "aciklama": "Klasik bir animasyon filmi."
-    },
-    {
-      "id": 7,
-      "kategori": "Atasözü",
-      "emojiler": "\ud83d\udc11\ud83d\udc11\u26f0",
-      "cevap": "İki koyun bir yaylada otlamaz",
-      "zorluk": "Orta",
-      "aciklama": "Paylaşım ve uzlaşma önemi vurgulanır."
-    },
-    {
-      "id": 8,
-      "kategori": "Yemek",
-      "emojiler": "\ud83c\udf57\ud83c\udf56",
-      "cevap": "Tandır",
-      "zorluk": "Orta",
-      "aciklama": "Et ile yapılan geleneksel bir yemek."
-    },
-    {
-      "id": 9,
-      "kategori": "Şarkı",
-      "emojiler": "\ud83c\udfa4\ud83c\udf08",
-      "cevap": "Rengarenk",
-      "zorluk": "Kolay",
-      "aciklama": "Popüler bir Türkçe pop şarkısı."
-    },
-    {
-      "id": 10,
-      "kategori": "Şehir",
-      "emojiler": "\ud83d\udef3\ufe0f\ud83c\udf09",
-      "cevap": "İstanbul",
-      "zorluk": "Kolay",
-      "aciklama": "Türkiye'nin en büyük şehri."
-    },
-    {
-      "id": 11,
-      "kategori": "Film",
-      "emojiler": "\ud83c\udfa5\ud83c\udf1f",
-      "cevap": "Yıldızlararası",
-      "zorluk": "Zor",
-      "aciklama": "Bilim kurgu türünde popüler bir film."
-    },
-    {
-      "id": 12,
-      "kategori": "Atasözü",
-      "emojiler": "\u26c5\ud83c\udf27\ufe0f",
-      "cevap": "Yağmur yağarken testiyi doldur",
-      "zorluk": "Orta",
-      "aciklama": "Fırsatları değerlendirmenin önemi vurgulanır."
-    },
-    {
-      "id": 13,
-      "kategori": "Yemek",
-      "emojiler": "\ud83c\udf5c\ud83c\udf72",
-      "cevap": "Çorba",
-      "zorluk": "Kolay",
-      "aciklama": "Yemeklerden önce tüketilen sıvı bir yemek türü."
-    },
-    {
-      "id": 14,
-      "kategori": "Şarkı",
-      "emojiler": "\ud83c\udfa7\u2600\ufe0f",
-      "cevap": "Güneşin Doğuşu",
-      "zorluk": "Orta",
-      "aciklama": "Motivasyonel bir şarkı."
-    },
-    {
-      "id": 15,
-      "kategori": "Şehir",
-      "emojiler": "\ud83c\udf6f\ud83c\udf33",
-      "cevap": "Bursa",
-      "zorluk": "Kolay",
-      "aciklama": "Türkiye'nin Marmara Bölgesi'nde bir şehir."
-    },
-    {
-      "id": 16,
-      "kategori": "Film",
-      "emojiler": "\ud83c\udfa9\u2708",
-      "cevap": "Indiana Jones",
-      "zorluk": "Orta",
-      "aciklama": "Macera türünde bir klasik film serisi."
-    },
-    {
-      "id": 17,
-      "kategori": "Atasözü",
-      "emojiler": "\ud83c\udf31\ud83d\udea8",
-      "cevap": "Ne ekersen, onu biçersin",
-      "zorluk": "Kolay",
-      "aciklama": "Yaptığınız işlerin sonucunu alırsınız."
-    },
-    {
-      "id": 18,
-      "kategori": "Yemek",
-      "emojiler": "\ud83c\udf5d\ud83c\udf36",
-      "cevap": "Mantı",
-      "zorluk": "Orta",
-      "aciklama": "Hamur işi bir yemek."
-    },
-    {
-      "id": 19,
-      "kategori": "Şarkı",
-      "emojiler": "\ud83c\udfa4\ud83d\udd7a",
-      "cevap": "Dans Et",
-      "zorluk": "Kolay",
-      "aciklama": "Eğlenceli bir şarkı."
-    },
-    {
-      "id": 20,
-      "kategori": "Şehir",
-      "emojiler": "\u2600\ufe0f\ud83c\udfd6\ufe0f",
-      "cevap": "Antalya",
-      "zorluk": "Kolay",
-      "aciklama": "Türkiye'nin turistik şehirlerinden biri."
-    },
-  {
-    "id": 31,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf80",
-    "cevap": "Inception",
-    "zorluk": "Zor",
-    "aciklama": "Zihinsel ve rüya dünyasına dair derin felsefi temalar içeren bir bilim kurgu filmi."
-  },
-  {
-    "id": 32,
-    "kategori": "Atasözü",
-    "emojiler": "\u270a\u23f0",
-    "cevap": "Ayağını yorganına göre uzat",
-    "zorluk": "Kolay",
-    "aciklama": "Gelirinizi aşan harcamalardan kaçınmanızı öğütleyen bir atasözü."
-  },
-  {
-    "id": 33,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf55\ud83c\udf32",
-    "cevap": "Pizza",
-    "zorluk": "Kolay",
-    "aciklama": "İtalya kökenli, üzerine çeşitli malzemeler eklenerek yapılan bir yemek."
-  },
-  {
-    "id": 34,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb5\u2b50",
-    "cevap": "Someone Like You",
-    "zorluk": "Orta",
-    "aciklama": "Adele'in popüler şarkısı, duygusal bir ayrılık şarkısı."
-  },
-  {
-    "id": 35,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0d\ud83c\udfd9",
-    "cevap": "Paris",
-    "zorluk": "Kolay",
-    "aciklama": "Fransa'nın başkenti ve romantizmin merkezi olarak bilinir."
-  },
-  {
-    "id": 36,
-    "kategori": "Film",
-    "emojiler": "\ud83e\udd77\ud83c\udf0d",
-    "cevap": "Wonder Woman",
-    "zorluk": "Orta",
-    "aciklama": "DC Comics'in popüler süper kahramanı Wonder Woman'ın hikayesini anlatan film."
-  },
-  {
-    "id": 37,
-    "kategori": "Atasözü",
-    "emojiler": "\u23f0\ud83d\udc40",
-    "cevap": "Vakit nakittir",
-    "zorluk": "Kolay",
-    "aciklama": "Zamanın çok değerli olduğunu anlatan bir atasözü."
-  },
-  {
-    "id": 38,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\u1f35",
-    "cevap": "Steak",
-    "zorluk": "Orta",
-    "aciklama": "Izgarada ya da tavada pişirilen et yemeği."
-  },
-  {
-    "id": 39,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\ude97",
-    "cevap": "Drive",
-    "zorluk": "Orta",
-    "aciklama": "The Cars grubunun ünlü şarkısı."
-  },
-  {
-    "id": 40,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf35\ud83c\udf0a",
-    "cevap": "Marmaris",
-    "zorluk": "Kolay",
-    "aciklama": "Türkiye'nin Ege Bölgesi'nde, turistik bir sahil şehri."
-  },
-  {
-    "id": 41,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf0e",
-    "cevap": "The Matrix",
-    "zorluk": "Zor",
-    "aciklama": "Gerçeklik ve yapay zekaya dair derin felsefi sorular içeren bir bilim kurgu filmi."
-  },
-  {
-    "id": 42,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u2696\ufe0f\u231b",
-    "cevap": "Az kazanan çok kazanır",
-    "zorluk": "Orta",
-    "aciklama": "Daha az kazançla ama sürdürülebilir şekilde ilerlemenin önemini anlatır."
-  },
-  {
-    "id": 43,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf53\ud83c\udf4e",
-    "cevap": "Lazanya",
-    "zorluk": "Orta",
-    "aciklama": "İtalyan mutfağından, katmanlı makarna ve kıymalı sosla yapılan bir yemek."
-  },
-  {
-    "id": 44,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfbb\u2764\ufe0f",
-    "cevap": "Shape of You",
-    "zorluk": "Kolay",
-    "aciklama": "Ed Sheeran'ın hit şarkısı."
-  },
-  {
-    "id": 45,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf7f\ud83c\udf3c",
-    "cevap": "İzmir",
-    "zorluk": "Kolay",
-    "aciklama": "Türkiye'nin batısında, Ege Bölgesi'nde yer alan büyük bir şehir."
-  },
-  {
-    "id": 46,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udcfa",
-    "cevap": "Avatar",
-    "zorluk": "Zor",
-    "aciklama": "James Cameron'ın, görsel efektleri ile ünlü bilim kurgu filmi."
-  },
-  {
-    "id": 47,
-    "kategori": "Atasözü",
-    "emojiler": "\u26d3\ud83c\udfc3",
-    "cevap": "İşleyen demir ışıldar",
-    "zorluk": "Kolay",
-    "aciklama": "Çalışkan ve aktif olan kişilerin başarıya ulaşacağını anlatan bir atasözü."
-  },
-  {
-    "id": 48,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf52\ud83c\udf56",
-    "cevap": "Hamburger",
-    "zorluk": "Kolay",
-    "aciklama": "Köfte, peynir ve diğer malzemelerin eklenerek yapılan fast food yemeği."
-  },
-  {
-    "id": 49,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfa4\ud83c\udf83",
-    "cevap": "Bohemian Rhapsody",
-    "zorluk": "Zor",
-    "aciklama": "Queen'in ünlü, epik şarkısı."
-  },
-  {
-    "id": 50,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udfd4\ud83d\udd73",
-    "cevap": "Bodrum",
-    "zorluk": "Kolay",
-    "aciklama": "Türkiye'nin güneyinde, Ege kıyılarında yer alan bir tatil beldesi."
-  },
-  {
-    "id": 51,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf1e",
-    "cevap": "Titanic",
-    "zorluk": "Zor",
-    "aciklama": "Bir aşk hikayesinin trajik sonunu anlatan, Oscar ödüllü bir film."
-  },
-  {
-    "id": 52,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u270d\ufe0f\u23f0",
-    "cevap": "Damlaya damlaya göl olur",
-    "zorluk": "Kolay",
-    "aciklama": "Küçük şeylerin zamanla büyük sonuçlar doğuracağını anlatan bir atasözü."
-  },
-  {
-    "id": 53,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf74\ud83c\udf4f",
-    "cevap": "Kısır",
-    "zorluk": "Kolay",
-    "aciklama": "Bulgur, yeşillik ve baharatlarla yapılan bir Türk salatası."
-  },
-  {
-    "id": 54,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf88",
-    "cevap": "Uptown Funk",
-    "zorluk": "Kolay",
-    "aciklama": "Mark Ronson ve Bruno Mars'ın popüler dans şarkısı."
-  },
-  {
-    "id": 55,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0f\ud83c\udf89",
-    "cevap": "New York",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika Birleşik Devletleri'nin en büyük ve kültürel açıdan önemli şehirlerinden biri."
-  },
-  {
-    "id": 56,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf55",
-    "cevap": "The Lion King",
-    "zorluk": "Kolay",
-    "aciklama": "Walt Disney'in ünlü animasyon filmi."
-  },
-  {
-    "id": 57,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u2702\ufe0f\u231b",
-    "cevap": "Taş yerinde ağırdır",
-    "zorluk": "Orta",
-    "aciklama": "Kişinin kendi ortamında değerli olduğunu anlatan bir atasözü."
-  },
-  {
-    "id": 58,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf74\ud83d\udc37",
-    "cevap": "Börek",
-    "zorluk": "Kolay",
-    "aciklama": "İçine peynir, kıyma ya da ıspanak konarak yapılan geleneksel bir Türk yemeği."
-  },
-  {
-    "id": 59,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb5\ud83c\udf8b",
-    "cevap": "Hallelujah",
-    "zorluk": "Zor",
-    "aciklama": "Leonard Cohen'in ünlü şarkısı, birçok sanatçı tarafından yorumlanmıştır."
-  },
-  {
-    "id": 60,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf7f\ud83c\udf0b",
-    "cevap": "Venedik",
-    "zorluk": "Orta",
-    "aciklama": "İtalya'nın romantik kanallarıyla ünlü tarihi şehri."
-  },
-  {
-    "id": 61,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc9c",
-    "cevap": "Inception",
-    "zorluk": "Zor",
-    "aciklama": "Christopher Nolan'ın bilinçaltı ve rüya dünyasını keşfeden filmi."
-  },
-  {
-    "id": 62,
-    "kategori": "Atasözü",
-    "emojiler": "\u2615\ud83c\udf3f",
-    "cevap": "Bir elin nesi var, iki elin sesi var",
-    "zorluk": "Kolay",
-    "aciklama": "Birlikte çalışmanın gücünü anlatan bir atasözü."
-  },
-  {
-    "id": 63,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf5f\ud83c\udf7f",
-    "cevap": "Köfte",
-    "zorluk": "Kolay",
-    "aciklama": "Kıyma ve baharatlarla yapılan, genellikle ızgara ya da tavada pişirilen bir yemek."
-  },
-  {
-    "id": 64,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf84",
-    "cevap": "Despacito",
-    "zorluk": "Kolay",
-    "aciklama": "Luis Fonsi'nin popüler Latin hit şarkısı."
-  },
-  {
-    "id": 65,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0d\ud83c\udf70",
-    "cevap": "Paris",
-    "zorluk": "Kolay",
-    "aciklama": "Fransa'nın başkenti, dünya çapında bir kültür ve moda merkezi."
-  },
-  {
-    "id": 66,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udd2f",
-    "cevap": "Forrest Gump",
-    "zorluk": "Kolay",
-    "aciklama": "Hayatın anlamını ve değerini anlatan bir dramatik film."
-  },
-  {
-    "id": 67,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc7b\u231b",
-    "cevap": "Dost kara günde belli olur",
-    "zorluk": "Orta",
-    "aciklama": "Gerçek dostluk zor zamanlarda ortaya çıkar."
-  },
-  {
-    "id": 68,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf65\ud83c\udf72",
-    "cevap": "Pizza",
-    "zorluk": "Kolay",
-    "aciklama": "İtalyan mutfağından, üzerine çeşitli malzemeler eklenen yuvarlak bir ekmek."
-  },
-  {
-    "id": 69,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfa4\ud83d\udc57",
-    "cevap": "All of Me",
-    "zorluk": "Kolay",
-    "aciklama": "John Legend'ın romantik şarkısı."
-  },
-  {
-    "id": 70,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf99\ud83c\udf79",
-    "cevap": "Tokyo",
-    "zorluk": "Kolay",
-    "aciklama": "Japonya'nın başkenti ve dünyanın en büyük metropollerinden biri."
-  },
-  {
-    "id": 71,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udd0d",
-    "cevap": "The Matrix",
-    "zorluk": "Zor",
-    "aciklama": "Gerçeklik ve yapay zeka arasındaki farkı sorgulayan bilim kurgu filmi."
-  },
-  {
-    "id": 72,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\ud83c\udf29",
-    "cevap": "Ağaç yaşken eğilir",
-    "zorluk": "Kolay",
-    "aciklama": "İyi alışkanlıklar küçük yaşlarda kazanılır."
-  },
-  {
-    "id": 73,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf7d\ud83c\udf8c",
-    "cevap": "Simit",
-    "zorluk": "Kolay",
-    "aciklama": "Türk mutfağının geleneksel kahvaltılık yiyeceği, susamlı yuvarlak ekmek."
-  },
-  {
-    "id": 74,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfa4\ud83c\udf85",
-    "cevap": "Bohemian Rhapsody",
-    "zorluk": "Zor",
-    "aciklama": "Queen'in efsanevi şarkısı, rock müziğin klasikleri arasında yer alır."
-  },
-  {
-    "id": 75,
-    "kategori": "Şehir",
-    "emojiler": "\ud83d\udef3\ufe0f\ud83c\udf8d",
-    "cevap": "Los Angeles",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika'nın batısında yer alan, eğlence endüstrisinin merkezi olan büyük bir şehir."
-  },
-  {
-    "id": 76,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf99",
-    "cevap": "Avatar",
-    "zorluk": "Orta",
-    "aciklama": "James Cameron'un, 3D teknolojisiyle dikkat çeken bilim kurgu filmi."
-  },
-  {
-    "id": 77,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u270d\ufe0f\u2b06\ufe0f",
-    "cevap": "Sakla samanı, gelir zamanı",
-    "zorluk": "Orta",
-    "aciklama": "Gelecekte gerekli olacak bir şeyi şimdi saklamak."
-  },
-  {
-    "id": 78,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\ud83c\udf7f",
-    "cevap": "Baklava",
-    "zorluk": "Zor",
-    "aciklama": "Türk mutfağının en ünlü tatlısı, şerbetli ve ince yufkalarla yapılan bir tatlı."
-  },
-  {
-    "id": 79,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf88",
-    "cevap": "Shape of You",
-    "zorluk": "Kolay",
-    "aciklama": "Ed Sheeran'ın dünya çapında hit olan şarkısı."
-  },
-  {
-    "id": 80,
-    "kategori": "Şehir",
-    "emojiler": "\ud83d\udcf8\ud83d\udc9f",
-    "cevap": "Londra",
-    "zorluk": "Kolay",
-    "aciklama": "Birleşik Krallık'ın başkenti, tarihi ve kültürel açıdan önemli bir şehir."
-  },
-  {
-    "id": 81,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc8c",
-    "cevap": "Gladiator",
-    "zorluk": "Orta",
-    "aciklama": "Roma İmparatorluğu'nda geçen, intikam temalı bir epik film."
-  },
-  {
-    "id": 82,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\u26d4",
-    "cevap": "Ayağını yorganına göre uzat",
-    "zorluk": "Kolay",
-    "aciklama": "Harcamalarınızı gelirinize göre yapmalısınız."
-  },
-  {
-    "id": 83,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf63\ud83c\udf5f",
-    "cevap": "Börek",
-    "zorluk": "Orta",
-    "aciklama": "İçine çeşitli malzemeler konularak yapılan, ince yufkadan yapılan bir Türk yemeği."
-  },
-  {
-    "id": 84,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf90",
-    "cevap": "Sweet Child O' Mine",
-    "zorluk": "Kolay",
-    "aciklama": "Guns N' Roses'ın en ünlü şarkılarından biri."
-  },
-  {
-    "id": 85,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf3f\ud83d\uddf9",
-    "cevap": "New York",
-    "zorluk": "Kolay",
-    "aciklama": "ABD'nin en büyük ve en kalabalık şehri, kültürel merkez."
-  },
-  {
-    "id": 86,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc99",
-    "cevap": "The Godfather",
-    "zorluk": "Zor",
-    "aciklama": "Bir mafya ailesinin hikayesini anlatan, sinema tarihinin en önemli filmlerinden biri."
-  },
-  {
-    "id": 87,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc8e\u2764\ufe0f",
-    "cevap": "Gülü seven dikenine katlanır",
-    "zorluk": "Orta",
-    "aciklama": "Zorluklar ve güzel şeyler birbirine bağlıdır."
-  },
-  {
-    "id": 88,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\ud83c\udf61",
-    "cevap": "Kumpir",
-    "zorluk": "Kolay",
-    "aciklama": "Fırınlanmış patatesin içerisine çeşitli malzemelerin konulmasıyla yapılan bir sokak yemeği."
-  },
-  {
-    "id": 89,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfa4\ud83c\udf99",
-    "cevap": "Let It Be",
-    "zorluk": "Kolay",
-    "aciklama": "The Beatles'ın ünlü bir şarkısı."
-  },
-  {
-    "id": 90,
-    "kategori": "Şehir",
-    "emojiler": "\ud83d\udef3\ufe0f\ud83c\udf08",
-    "cevap": "Roma",
-    "zorluk": "Kolay",
-    "aciklama": "İtalya'nın başkenti, tarihsel ve kültürel açıdan zengin bir şehir."
-  },
-  {
-    "id": 91,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc90",
-    "cevap": "Inception",
-    "zorluk": "Zor",
-    "aciklama": "Rüya içinde rüya konseptiyle zihin bükücü bir bilim kurgu filmi."
-  },
-  {
-    "id": 92,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u270d\ufe0f\u2b06\ufe0f",
-    "cevap": "İşleyen demir ışıldar",
-    "zorluk": "Kolay",
-    "aciklama": "Çalışan kişi daha başarılı olur."
-  },
-  {
-    "id": 93,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf75\ud83c\udf72",
-    "cevap": "Kısır",
-    "zorluk": "Kolay",
-    "aciklama": "Bulgur, domates ve baharatlarla yapılan geleneksel bir Türk yemeği."
-  },
-  {
-    "id": 94,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udfb5",
-    "cevap": "Imagine",
-    "zorluk": "Orta",
-    "aciklama": "John Lennon'un en ünlü barış şarkılarından biri."
-  },
-  {
-    "id": 95,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf38\ud83c\udf8e",
-    "cevap": "Paris",
-    "zorluk": "Kolay",
-    "aciklama": "Fransa'nın başkenti, aşkın ve sanatın şehri olarak bilinir."
-  },
-  {
-    "id": 96,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc97",
-    "cevap": "Titanic",
-    "zorluk": "Orta",
-    "aciklama": "Büyük bir gemi faciası ve romantizmi anlatan dramatik bir film."
-  },
-  {
-    "id": 97,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc7b\u2b06\ufe0f",
-    "cevap": "Dost kara günde belli olur",
-    "zorluk": "Orta",
-    "aciklama": "Gerçek dostlar zor zamanlarda belli olur."
-  },
-  {
-    "id": 98,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\ud83c\udf5c",
-    "cevap": "Mıhlama",
-    "zorluk": "Orta",
-    "aciklama": "Karadeniz mutfağının peynirli, tereyağlı, mısır unlu yemeği."
-  },
-  {
-    "id": 99,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf99",
-    "cevap": "Hallelujah",
-    "zorluk": "Zor",
-    "aciklama": "Leonard Cohen'in duygusal ve derin anlamlar taşıyan şarkısı."
-  },
-  {
-    "id": 100,
-    "kategori": "Şehir",
-    "emojiler": "\ud83d\udef3\ufe0f\ud83c\udf0a",
-    "cevap": "Venedik",
-    "zorluk": "Orta",
-    "aciklama": "İtalya'da, su kanallarıyla ünlü, tarihi bir şehir."
-  },
-  {
-    "id": 101,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc8e",
-    "cevap": "The Shawshank Redemption",
-    "zorluk": "Zor",
-    "aciklama": "Hapishane temalı, umut ve özgürlük üzerine güçlü bir dram."
-  },
-  {
-    "id": 102,
-    "kategori": "Atasözü",
-    "emojiler": "\u2194\ufe0f\ud83d\udc5e",
-    "cevap": "Taş yerinde ağırdır",
-    "zorluk": "Orta",
-    "aciklama": "Her şey kendi yerinde değerli olur."
-  },
-  {
-    "id": 103,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf72\ud83c\udf7f",
-    "cevap": "Çörek",
-    "zorluk": "Kolay",
-    "aciklama": "Tatlı veya tuzlu, üzerine yumurta sürülen, hamur işinden yapılmış yiyecek."
-  },
-  {
-    "id": 104,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf9c",
-    "cevap": "Hotel California",
-    "zorluk": "Zor",
-    "aciklama": "Eagles grubunun efsane şarkısı, rock müziğinin klasiklerinden."
-  },
-  {
-    "id": 105,
-    "kategori": "Şehir",
-    "emojiler": "\ud83d\udef3\ufe0f\ud83c\udf93",
-    "cevap": "İstanbul",
-    "zorluk": "Kolay",
-    "aciklama": "Türkiye'nin en büyük şehri, tarih ve kültür merkezi."
-  },
-  {
-    "id": 106,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc88",
-    "cevap": "The Dark Knight",
-    "zorluk": "Zor",
-    "aciklama": "Batman'in Gotham'daki suçlularla savaşını anlatan, aksiyon dolu film."
-  },
-  {
-    "id": 107,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc68\u200d\u270d\ufe0f\u2b06\ufe0f",
-    "cevap": "Sütten ağzı yanan yoğurdu üfleyerek yer",
-    "zorluk": "Orta",
-    "aciklama": "Bir hata yaptıktan sonra daha dikkatli olmak gerekir."
-  },
-  {
-    "id": 108,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf77\ud83c\udf59",
-    "cevap": "Döner",
-    "zorluk": "Kolay",
-    "aciklama": "Türk mutfağının ünlü et yemeği, dönerin ince ince kesilip pişirilmesi."
-  },
-  {
-    "id": 109,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfa4\ud83c\udf99",
-    "cevap": "Yesterday",
-    "zorluk": "Kolay",
-    "aciklama": "The Beatles'ın zamanla klasikleşmiş şarkısı."
-  },
-  {
-    "id": 110,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf3b\ud83d\udec6",
-    "cevap": "Tokyo",
-    "zorluk": "Kolay",
-    "aciklama": "Japonya'nın başkenti, teknoloji ve geleneksel kültürün buluştuğu bir şehir."
-  },
-  {
-    "id": 111,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf0a",
-    "cevap": "Gladiator",
-    "zorluk": "Orta",
-    "aciklama": "Roma İmparatorluğu döneminde geçen aksiyon dolu bir film."
-  },
-  {
-    "id": 112,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc69\u200d\u270f\ufe0f\u2192",
-    "cevap": "Ayağını yorganına göre uzat",
-    "zorluk": "Kolay",
-    "aciklama": "Gelirinize göre harcama yapmalısınız."
-  },
-  {
-    "id": 113,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf5f\ud83c\udf5d",
-    "cevap": "Börek",
-    "zorluk": "Kolay",
-    "aciklama": "Yufka, peynir ve kıyma ile yapılan geleneksel Türk yemeği."
-  },
-  {
-    "id": 114,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc66",
-    "cevap": "Bohemian Rhapsody",
-    "zorluk": "Zor",
-    "aciklama": "Queen grubunun efsanevi şarkısı."
-  },
-  {
-    "id": 115,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0d\ud83c\udf07",
-    "cevap": "New York",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika'nın en büyük ve en işlek şehri."
-  },
-  {
-    "id": 116,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udd2b",
-    "cevap": "The Godfather",
-    "zorluk": "Zor",
-    "aciklama": "Bir mafya ailesinin dramını anlatan kült bir film."
-  },
-  {
-    "id": 117,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\ud83d\udc68\u200d\u270d\ufe0f",
-    "cevap": "Az kazanan çok kazanır",
-    "zorluk": "Orta",
-    "aciklama": "Daha küçük ama düzenli kazançlar daha uzun vadede daha faydalıdır."
-  },
-  {
-    "id": 118,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\ud83c\udf59",
-    "cevap": "Pizza",
-    "zorluk": "Kolay",
-    "aciklama": "İtalyan mutfağından, üzerine malzeme eklenerek pişirilen yuvarlak hamur."
-  },
-  {
-    "id": 119,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udd25",
-    "cevap": "Smoke on the Water",
-    "zorluk": "Orta",
-    "aciklama": "Deep Purple tarafından yazılan klasik rock şarkısı."
-  },
-  {
-    "id": 120,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf99\ud83c\udfe0",
-    "cevap": "Londra",
-    "zorluk": "Kolay",
-    "aciklama": "Birleşik Krallık'ın başkenti ve en büyük şehri."
-  },
-  {
-    "id": 121,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udda5",
-    "cevap": "The Matrix",
-    "zorluk": "Zor",
-    "aciklama": "Sanrılar ve gerçeklik üzerine etkileyici bir bilim kurgu filmi."
-  },
-  {
-    "id": 122,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udc6e\ud83d\udc6e",
-    "cevap": "Gülü seven dikenine katlanır",
-    "zorluk": "Kolay",
-    "aciklama": "Her güzel şeyin bir zorluğu vardır."
-  },
-  {
-    "id": 123,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf57\ud83c\udf5e",
-    "cevap": "Kumpir",
-    "zorluk": "Kolay",
-    "aciklama": "Fırınlanmış patates, çeşitli malzemelerle doldurulur."
-  },
-  {
-    "id": 124,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf3c",
-    "cevap": "Shallow",
-    "zorluk": "Orta",
-    "aciklama": "Lady Gaga ve Bradley Cooper'ın seslendirdiği ödüllü şarkı."
-  },
-  {
-    "id": 125,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf07\ud83c\udf73",
-    "cevap": "Madrid",
-    "zorluk": "Kolay",
-    "aciklama": "İspanya'nın başkenti, kültür ve sanat şehri."
-  },
-  {
-    "id": 126,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udd2b",
-    "cevap": "Forrest Gump",
-    "zorluk": "Orta",
-    "aciklama": "Bir adamın sıra dışı hayatını konu alan bir dram."
-  },
-  {
-    "id": 127,
-    "kategori": "Atasözü",
-    "emojiler": "\u2702\u2b06\ufe0f",
-    "cevap": "Her işin başı sağlık",
-    "zorluk": "Kolay",
-    "aciklama": "Sağlık her şeyden daha önemli."
-  },
-  {
-    "id": 128,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf7d\ud83c\udf71",
-    "cevap": "Kavurma",
-    "zorluk": "Orta",
-    "aciklama": "Etin düşük ısıda pişirilmesiyle yapılan geleneksel bir yemek."
-  },
-  {
-    "id": 129,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf88",
-    "cevap": "Let it Be",
-    "zorluk": "Orta",
-    "aciklama": "The Beatles'ın umut dolu şarkısı."
-  },
-  {
-    "id": 130,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf72\ud83d\udef3",
-    "cevap": "Moskova",
-    "zorluk": "Kolay",
-    "aciklama": "Rusya'nın başkenti, tarihi ve kültürel bir şehir."
-  },
-  {
-    "id": 131,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udcda",
-    "cevap": "The Shawshank Redemption",
-    "zorluk": "Zor",
-    "aciklama": "Bir hapishanede geçen, dostluk ve özgürlük üzerine bir dram."
-  },
-  {
-    "id": 132,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udd25\u2192",
-    "cevap": "Ateş olmayan yerden duman çıkmaz",
-    "zorluk": "Kolay",
-    "aciklama": "Her olayın bir sebebi vardır."
-  },
-  {
-    "id": 133,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf7f\ud83c\udf58",
-    "cevap": "Baklava",
-    "zorluk": "Kolay",
-    "aciklama": "İçinde ceviz veya fıstık bulunan tatlı bir hamur işi."
-  },
-  {
-    "id": 134,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udca6",
-    "cevap": "Hotel California",
-    "zorluk": "Zor",
-    "aciklama": "Eagles'ın unutulmaz rock şarkısı."
-  },
-  {
-    "id": 135,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0f\ud83c\udf7c",
-    "cevap": "Los Angeles",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika'nın ikinci en büyük şehri ve Hollywood'un merkezi."
-  },
-  {
-    "id": 136,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udcbb",
-    "cevap": "Inception",
-    "zorluk": "Zor",
-    "aciklama": "Zihinler arası yolculukları konu alan bir bilim kurgu filmi."
-  },
-  {
-    "id": 137,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\u2194",
-    "cevap": "Gülme komşuna, gelir başına",
-    "zorluk": "Orta",
-    "aciklama": "Başkalarının başına gelen olaylardan gülmek, kendimize de gelebilir."
-  },
-  {
-    "id": 138,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf72\ud83c\udf70",
-    "cevap": "Döner",
-    "zorluk": "Kolay",
-    "aciklama": "Köfte ya da etin döner iğnesine takılıp pişirilerek servis edilmesi."
-  },
-  {
-    "id": 139,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc8b",
-    "cevap": "Shape of You",
-    "zorluk": "Kolay",
-    "aciklama": "Ed Sheeran'ın popüler şarkısı."
-  },
-  {
-    "id": 140,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf7b\ud83c\udfb5",
-    "cevap": "Viyana",
-    "zorluk": "Kolay",
-    "aciklama": "Avusturya'nın başkenti, tarihi ve kültürel bir şehir."
-  },
-  {
-    "id": 141,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udda5",
-    "cevap": "The Dark Knight",
-    "zorluk": "Zor",
-    "aciklama": "Batman'in Joker ile mücadelesini anlatan bir aksiyon filmi."
-  },
-  {
-    "id": 142,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83c\udf31\u2192",
-    "cevap": "Damlaya damlaya göl olur",
-    "zorluk": "Kolay",
-    "aciklama": "Küçük şeyler zamanla büyük bir şeye dönüşebilir."
-  },
-  {
-    "id": 143,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf55\ud83c\udf57",
-    "cevap": "Hamburger",
-    "zorluk": "Kolay",
-    "aciklama": "İçinde et, peynir ve diğer malzemeler bulunan fast food yemeği."
-  },
-  {
-    "id": 144,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf85",
-    "cevap": "Imagine",
-    "zorluk": "Orta",
-    "aciklama": "John Lennon'ın barış mesajı veren ünlü şarkısı."
-  },
-  {
-    "id": 145,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf3f\ud83c\udf7f",
-    "cevap": "Tokyo",
-    "zorluk": "Kolay",
-    "aciklama": "Japonya'nın başkenti ve dünyanın en kalabalık şehirlerinden biri."
-  },
-  {
-    "id": 146,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf0d",
-    "cevap": "Interstellar",
-    "zorluk": "Zor",
-    "aciklama": "Uzay yolculuğu ve zaman üzerine bir bilim kurgu filmi."
-  },
-  {
-    "id": 147,
-    "kategori": "Atasözü",
-    "emojiler": "\u26a1\ufe0f\u2b06\ufe0f",
-    "cevap": "Taş yerinde ağırdır",
-    "zorluk": "Orta",
-    "aciklama": "Her şeyin kendi yerinde ve zamanında kıymeti vardır."
-  },
-  {
-    "id": 148,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf56\ud83c\udf55",
-    "cevap": "Kısır",
-    "zorluk": "Kolay",
-    "aciklama": "Bulgur, domates ve yeşilliklerle yapılan bir tür salata."
-  },
-  {
-    "id": 149,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf85",
-    "cevap": "Rolling in the Deep",
-    "zorluk": "Orta",
-    "aciklama": "Adele'in güçlü vokaliyle bilinen bir şarkı."
-  },
-  {
-    "id": 150,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf6f\ud83c\udf74",
-    "cevap": "Roma",
-    "zorluk": "Kolay",
-    "aciklama": "İtalya'nın başkenti, tarihi ve turistik bir şehir."
-  },
-  {
-    "id": 151,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc6f",
-    "cevap": "Forrest Gump",
-    "zorluk": "Zor",
-    "aciklama": "Hayatın zorluklarına rağmen başarıya ulaşan bir adamın hikayesi."
-  },
-  {
-    "id": 152,
-    "kategori": "Atasözü",
-    "emojiler": "\u26d4\ufe0f\u2192",
-    "cevap": "Ayağını yorganına göre uzat",
-    "zorluk": "Kolay",
-    "aciklama": "Gelirine göre harcama yapmalısın."
-  },
-  {
-    "id": 153,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf7f\ud83c\udf6e",
-    "cevap": "Kumpir",
-    "zorluk": "Orta",
-    "aciklama": "Fırında pişirilen patatesin üzerine çeşit çeşit malzeme eklenir."
-  },
-  {
-    "id": 154,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udca9",
-    "cevap": "Bohemian Rhapsody",
-    "zorluk": "Zor",
-    "aciklama": "Queen'in efsane şarkısı."
-  },
-  {
-    "id": 155,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0e\ud83c\udf79",
-    "cevap": "New York",
-    "zorluk": "Kolay",
-    "aciklama": "ABD'nin en büyük metropol şehirlerinden biri."
-  },
-  {
-    "id": 156,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf1f",
-    "cevap": "The Matrix",
-    "zorluk": "Zor",
-    "aciklama": "Sanallık ve gerçeklik arasındaki sınırları zorlayan bir film."
-  },
-  {
-    "id": 157,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83c\udf31\u2b06\ufe0f",
-    "cevap": "Az kazanan çok kazanır",
-    "zorluk": "Kolay",
-    "aciklama": "Düzenli kazanç daha iyi sonuç verir."
-  },
-  {
-    "id": 158,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf5e\ud83c\udf56",
-    "cevap": "Pizza",
-    "zorluk": "Kolay",
-    "aciklama": "İtalyan mutfağından bir tür yuvarlak ekmek üzerine peynir, domates ve diğer malzemelerin eklenmesiyle yapılan yemek."
-  },
-  {
-    "id": 159,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udfa1",
-    "cevap": "Despacito",
-    "zorluk": "Orta",
-    "aciklama": "Luis Fonsi ve Daddy Yankee'nin popüler şarkısı."
-  },
-  {
-    "id": 160,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf30\ud83c\udf75",
-    "cevap": "Paris",
-    "zorluk": "Kolay",
-    "aciklama": "Fransa'nın başkenti, dünya çapında ünlü bir şehir."
-  },
-  {
-    "id": 161,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc3c",
-    "cevap": "The Lion King",
-    "zorluk": "Kolay",
-    "aciklama": "Popüler bir Disney animasyonu."
-  },
-  {
-    "id": 162,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\u2b07\ufe0f",
-    "cevap": "Ne oldum demem, ne olacağım derim",
-    "zorluk": "Orta",
-    "aciklama": "Başarılar zamanla değişebilir, bundan dolayı daima alçakgönüllü olun."
-  },
-  {
-    "id": 163,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf58\ud83c\udf60",
-    "cevap": "Börek",
-    "zorluk": "Kolay",
-    "aciklama": "İç harcıyla yapılan geleneksel bir hamur işi."
-  },
-  {
-    "id": 164,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udd73",
-    "cevap": "All of Me",
-    "zorluk": "Kolay",
-    "aciklama": "John Legend'ın romantik şarkısı."
-  },
-  {
-    "id": 165,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0f\ud83c\udf7e",
-    "cevap": "Londra",
-    "zorluk": "Kolay",
-    "aciklama": "İngiltere'nin başkenti ve kültürel merkezi."
-  },
-  {
-    "id": 166,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf0a",
-    "cevap": "Avatar",
-    "zorluk": "Orta",
-    "aciklama": "Pandora gezegeninde geçen bir bilim kurgu filmi."
-  },
-  {
-    "id": 167,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\ufe0f\u2b05\ufe0f",
-    "cevap": "Sakla samanı, gelir zamanı",
-    "zorluk": "Kolay",
-    "aciklama": "Bazen gereksiz görünen şeyler, ilerleyen zamanlarda önemli olabilir."
-  },
-  {
-    "id": 168,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf53\ud83c\udf51",
-    "cevap": "Kumpir",
-    "zorluk": "Kolay",
-    "aciklama": "Fırında pişirilen patatesin üzerine malzemelerle yapılan lezzetli yemek."
-  },
-  {
-    "id": 169,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udd4c",
-    "cevap": "Happy",
-    "zorluk": "Kolay",
-    "aciklama": "Pharrell Williams'ın enerjik şarkısı."
-  },
-  {
-    "id": 170,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf74\ud83c\udf77",
-    "cevap": "İzmir",
-    "zorluk": "Kolay",
-    "aciklama": "Türkiye'nin Ege Bölgesi'nde yer alan önemli bir şehir."
-  },
-  {
-    "id": 171,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf24",
-    "cevap": "Gladiator",
-    "zorluk": "Zor",
-    "aciklama": "Roma İmparatorluğu'nda geçen epik bir film."
-  },
-  {
-    "id": 172,
-    "kategori": "Atasözü",
-    "emojiler": "\u2190\ufe0f\u2193",
-    "cevap": "Dost kara günde belli olur",
-    "zorluk": "Orta",
-    "aciklama": "Gerçek dostlar zor zamanlarda belli olur."
-  },
-  {
-    "id": 173,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf52\ud83c\udf57",
-    "cevap": "Çörek",
-    "zorluk": "Kolay",
-    "aciklama": "Hamur işleri arasında tatlı veya tuzlu olabilen bir çeşit ekmek."
-  },
-  {
-    "id": 174,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc89",
-    "cevap": "Thriller",
-    "zorluk": "Zor",
-    "aciklama": "Michael Jackson'ın ikonik şarkısı."
-  },
-  {
-    "id": 175,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf6f\ud83c\udf75",
-    "cevap": "Barcelona",
-    "zorluk": "Kolay",
-    "aciklama": "İspanya'nın en büyük ikinci şehri ve turistik bir merkez."
-  },
-  {
-    "id": 176,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf73",
-    "cevap": "Pulp Fiction",
-    "zorluk": "Zor",
-    "aciklama": "Karmaşık anlatımı ve unutulmaz sahneleriyle bilinen bir film."
-  },
-  {
-    "id": 177,
-    "kategori": "Atasözü",
-    "emojiler": "\ud83d\udeab\u2192",
-    "cevap": "Bir musibet bin nasihatten iyidir",
-    "zorluk": "Orta",
-    "aciklama": "Tecrübeler, öğütlerden daha değerlidir."
-  },
-  {
-    "id": 178,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf5f\ud83c\udf57",
-    "cevap": "Sarma",
-    "zorluk": "Orta",
-    "aciklama": "Asma yaprağına sarılan pilavlı et yemeği."
-  },
-  {
-    "id": 179,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc3c",
-    "cevap": "Rolling in the Deep",
-    "zorluk": "Orta",
-    "aciklama": "Adele'in popüler şarkısı."
-  },
-  {
-    "id": 180,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf99\ud83d\udd79",
-    "cevap": "Viyana",
-    "zorluk": "Kolay",
-    "aciklama": "Avusturya'nın başkenti ve kültürel merkezlerinden biri."
-  },
-  {
-    "id": 201,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf99",
-    "cevap": "The Matrix",
-    "zorluk": "Zor",
-    "aciklama": "Bir yapay zeka dünyasında geçen bilim kurgu filmi."
-  },
-  {
-    "id": 202,
-    "kategori": "Atasözü",
-    "emojiler": "\u270c\u2b06\u2b07",
-    "cevap": "Gülü seven dikenine katlanır",
-    "zorluk": "Orta",
-    "aciklama": "Güzel şeylere sahip olmanın zorlukları vardır."
-  },
-  {
-    "id": 203,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf7f\ud83c\udf58",
-    "cevap": "Pizza",
-    "zorluk": "Kolay",
-    "aciklama": "İtalyan mutfağının popüler yemeği."
-  },
-  {
-    "id": 204,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udfa4",
-    "cevap": "Happier",
-    "zorluk": "Kolay",
-    "aciklama": "Marshmello ve Bastille tarafından seslendirilen şarkı."
-  },
-  {
-    "id": 205,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf66\ud83c\udf82",
-    "cevap": "Tokyo",
-    "zorluk": "Kolay",
-    "aciklama": "Japonya'nın başkenti ve en kalabalık şehri."
-  },
-  {
-    "id": 206,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc9e",
-    "cevap": "Jurassic Park",
-    "zorluk": "Orta",
-    "aciklama": "Dinozorların tekrar hayata döndüğü bir tema parkını konu alır."
-  },
-  {
-    "id": 207,
-    "kategori": "Atasözü",
-    "emojiler": "\u2b06\u2195\u2b07",
-    "cevap": "Aç ayı oynamaz",
-    "zorluk": "Kolay",
-    "aciklama": "İnsanlar açken ya da ihtiyacı varken daha farklı davranır."
-  },
-  {
-    "id": 208,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf58\ud83c\udf73",
-    "cevap": "Sushi",
-    "zorluk": "Orta",
-    "aciklama": "Japon mutfağına ait çiğ balık ve pirinçle yapılan yemek."
-  },
-  {
-    "id": 209,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83c\udf19",
-    "cevap": "Yesterday",
-    "zorluk": "Kolay",
-    "aciklama": "The Beatles'ın unutulmaz şarkısı."
-  },
-  {
-    "id": 210,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf0d\ud83c\udf7c",
-    "cevap": "New York",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika Birleşik Devletleri'nin en büyük şehirlerinden biri."
-  },
-  {
-    "id": 211,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83c\udf0e",
-    "cevap": "Avatar",
-    "zorluk": "Zor",
-    "aciklama": "Pandora gezegeninde geçen bilim kurgu filmi."
-  },
-  {
-    "id": 212,
-    "kategori": "Atasözü",
-    "emojiler": "\u2705\u2795",
-    "cevap": "İşleyen demir ışıldar",
-    "zorluk": "Kolay",
-    "aciklama": "Çalışan insan daha başarılı olur."
-  },
-  {
-    "id": 213,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf71\ud83c\udf68",
-    "cevap": "Fırın Tavuk",
-    "zorluk": "Orta",
-    "aciklama": "Fırında pişirilen tavuk yemeği."
-  },
-  {
-    "id": 214,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc8c",
-    "cevap": "Perfect",
-    "zorluk": "Kolay",
-    "aciklama": "Ed Sheeran tarafından seslendirilen romantik şarkı."
-  },
-  {
-    "id": 215,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf73\ud83c\udf68",
-    "cevap": "Los Angeles",
-    "zorluk": "Kolay",
-    "aciklama": "Amerika'nın en büyük şehirlerinden biri."
-  },
-  {
-    "id": 216,
-    "kategori": "Film",
-    "emojiler": "\ud83c\udfa5\ud83d\udc90",
-    "cevap": "Forrest Gump",
-    "zorluk": "Orta",
-    "aciklama": "Bir adamın yaşamını konu alan dramatik film."
-  },
-  {
-    "id": 217,
-    "kategori": "Atasözü",
-    "emojiler": "\u2716\ufe0f\u2714\ufe0f",
-    "cevap": "Sütten ağzı yanan yoğurdu üfleyerek yer",
-    "zorluk": "Orta",
-    "aciklama": "Geçmişte yaşanan kötü tecrübeler insanı temkinli hale getirir."
-  },
-  {
-    "id": 218,
-    "kategori": "Yemek",
-    "emojiler": "\ud83c\udf70\ud83c\udf69",
-    "cevap": "Kumpir",
-    "zorluk": "Kolay",
-    "aciklama": "Patatesin içine çeşitli malzemelerle yapılan yemek."
-  },
-  {
-    "id": 219,
-    "kategori": "Şarkı",
-    "emojiler": "\ud83c\udfb6\ud83d\udc5b",
-    "cevap": "Rolling in the Deep",
-    "zorluk": "Orta",
-    "aciklama": "Adele'in popüler şarkısı."
-  },
-  {
-    "id": 220,
-    "kategori": "Şehir",
-    "emojiler": "\ud83c\udf99\ud83d\udd79",
-    "cevap": "Viyana",
-    "zorluk": "Kolay",
-    "aciklama": "Avusturya'nın başkenti ve kültürel merkezlerinden biri."
-  }
-  ]
+{"data": [
+  { "id": 1, "kategori": "Film", "emojiler": "\ud83e\udd81\ud83d\udc51", "cevap": "AslanKral", "zorluk": "Kolay", "aciklama": "Popüler bir animasyon filmi." },
+  { "id": 2, "kategori": "Film", "emojiler": "\ud83d\udcbb\ud83d\udd0b", "cevap": "Matrix", "zorluk": "Orta", "aciklama": "Bilim kurgu temalı klasik bir film." },
+  { "id": 3, "kategori": "Film", "emojiler": "\ud83c\udfa5\ud83e\udd81", "cevap": "Titanic", "zorluk": "Orta", "aciklama": "Romantik ve dramatik bir film." },
+  { "id": 4, "kategori": "Film", "emojiler": "\ud83c\udfa5\ud83d\udc81", "cevap": "Joker", "zorluk": "Zor", "aciklama": "Bir anti-kahramanın hikayesi." },
+  { "id": 5, "kategori": "Film", "emojiler": "\ud83d\udc49\ud83e\udd81", "cevap": "Inception", "zorluk": "Zor", "aciklama": "Rüya içinde rüya olan bir film." },
+  { "id": 6, "kategori": "Film", "emojiler": "\ud83c\udfb2\ud83d\udd1e", "cevap": "Frozen", "zorluk": "Kolay", "aciklama": "Buz Krallığı'nda geçen bir hikaye." },
+  { "id": 7, "kategori": "Film", "emojiler": "\ud83d\udc8c\ud83d\udc51", "cevap": "Gladiator", "zorluk": "Zor", "aciklama": "Roma İmparatorluğu'nda geçen bir drama." },
+  { "id": 8, "kategori": "Film", "emojiler": "\ud83d\udcbe\u2b06", "cevap": "Avatar", "zorluk": "Orta", "aciklama": "Bilim kurgu türünde bir film." },
+  { "id": 9, "kategori": "Film", "emojiler": "\ud83d\udcbb\ud83e\udd83", "cevap": "Interstellar", "zorluk": "Zor", "aciklama": "Uzayda geçen bir keşif hikayesi." },
+  { "id": 10, "kategori": "Film", "emojiler": "\ud83d\udcbb\ud83c\udf85", "cevap": "ShutterIsland", "zorluk": "Zor", "aciklama": "Bir psikolojik gerilim filmi." },
+  
+  { "id": 11, "kategori": "Müzik", "emojiler": "\ud83c\udfb6\ud83d\udd0b", "cevap": "ShapeOfYou", "zorluk": "Kolay", "aciklama": "Ed Sheeran'ın popüler şarkısı." },
+  { "id": 12, "kategori": "Müzik", "emojiler": "\ud83c\udfb6\ud83c\udf9a", "cevap": "BadGuy", "zorluk": "Kolay", "aciklama": "Billie Eilish'in hit şarkısı." },
+  { "id": 13, "kategori": "Müzik", "emojiler": "\ud83c\udfb8\ud83d\udd0b", "cevap": "Happier", "zorluk": "Kolay", "aciklama": "Ed Sheeran'dan bir başka hit." },
+  { "id": 14, "kategori": "Müzik", "emojiler": "\ud83c\udfb5\u2b06", "cevap": "BlindingLights", "zorluk": "Zor", "aciklama": "The Weeknd'in popüler şarkısı." },
+  { "id": 15, "kategori": "Müzik", "emojiler": "\ud83c\udfb6\ud83d\udd0b", "cevap": "RollingInTheDeep", "zorluk": "Orta", "aciklama": "Adele'in hit şarkısı." },
+  { "id": 16, "kategori": "Müzik", "emojiler": "\ud83c\udfb5\u2600", "cevap": "Sunflower", "zorluk": "Orta", "aciklama": "Post Malone ve Swae Lee'nin şarkısı." },
+  { "id": 17, "kategori": "Müzik", "emojiler": "\ud83c\udfb6\ud83c\udf99", "cevap": "OneDance", "zorluk": "Kolay", "aciklama": "Drake'in popüler şarkısı." },
+  { "id": 18, "kategori": "Müzik", "emojiler": "\ud83c\udfb8\ud83c\udf99", "cevap": "Despacito", "zorluk": "Kolay", "aciklama": "Luis Fonsi ve Daddy Yankee'nin şarkısı." },
+  { "id": 19, "kategori": "Müzik", "emojiler": "\ud83c\udfb6\u266b", "cevap": "Rockstar", "zorluk": "Orta", "aciklama": "Post Malone'un popüler şarkısı." },
+  { "id": 20, "kategori": "Müzik", "emojiler": "\ud83c\udfb5\ud83d\udd0b", "cevap": "OldTownRoad", "zorluk": "Kolay", "aciklama": "Lil Nas X'in hit şarkısı." },
+  
+  { "id": 21, "kategori": "Yemek", "emojiler": "\ud83c\udf56\ud83c\udf74", "cevap": "Pizza", "zorluk": "Kolay", "aciklama": "İtalyan mutfağından bir yemek." },
+  { "id": 22, "kategori": "Yemek", "emojiler": "\ud83c\udf74\ud83d\udc47", "cevap": "Sushi", "zorluk": "Orta", "aciklama": "Japon mutfağından bir yemek." },
+  { "id": 23, "kategori": "Yemek", "emojiler": "\ud83c\udf73\ud83d\udc40", "cevap": "Burger", "zorluk": "Kolay", "aciklama": "Amerikan fast food'u." },
+  { "id": 24, "kategori": "Yemek", "emojiler": "\ud83c\udf63\ud83d\udc3e", "cevap": "Kebap", "zorluk": "Kolay", "aciklama": "Türk mutfağının meşhur yemeği." },
+  { "id": 25, "kategori": "Yemek", "emojiler": "\ud83c\udf74\ud83d\udc4c", "cevap": "Pasta", "zorluk": "Kolay", "aciklama": "Tatlı bir hamur işi." },
+  { "id": 26, "kategori": "Yemek", "emojiler": "\ud83c\udf74\ud83c\udf89", "cevap": "Makarna", "zorluk": "Kolay", "aciklama": "İtalyan mutfağından bir yemek." },
+  { "id": 27, "kategori": "Yemek", "emojiler": "\ud83c\udf53\ud83c\udf56", "cevap": "Taco", "zorluk": "Orta", "aciklama": "Meksika mutfağından bir yemek." },
+  { "id": 28, "kategori": "Yemek", "emojiler": "\ud83c\udf4e\ud83c\udf5c", "cevap": "Salata", "zorluk": "Kolay", "aciklama": "Sağlıklı bir yemek." },
+  { "id": 29, "kategori": "Yemek", "emojiler": "\ud83c\udf53\ud83c\udf78", "cevap": "Çorba", "zorluk": "Kolay", "aciklama": "Sıcak başlangıç yemeği." },
+  { "id": 30, "kategori": "Yemek", "emojiler": "\ud83c\udf5f\ud83c\udf60", "cevap": "Döner", "zorluk": "Kolay", "aciklama": "Türk mutfağının vazgeçilmezi." },
+  
+  { "id": 31, "kategori": "Kitap", "emojiler": "\ud83d\udcd6\ud83d\udcda", "cevap": "1984", "zorluk": "Orta", "aciklama": "George Orwell'in klasik eseridir." },
+  { "id": 32, "kategori": "Kitap", "emojiler": "\ud83d\udcda\ud83c\udf8c", "cevap": "HarryPotter", "zorluk": "Kolay", "aciklama": "J.K. Rowling'in meşhur serisi." },
+  { "id": 33, "kategori": "Kitap", "emojiler": "\ud83c\udf9b\ud83d\udcdd", "cevap": "Shining", "zorluk": "Zor", "aciklama": "Stephen King'in korku romanı." },
+  { "id": 34, "kategori": "Kitap", "emojiler": "\ud83d\udcda\u2b06", "cevap": "Alchemist", "zorluk": "Orta", "aciklama": "Paulo Coelho'nun ünlü romanı." },
+  { "id": 35, "kategori": "Kitap", "emojiler": "\ud83c\udf94\ud83d\udc8e", "cevap": "KüçükPrens", "zorluk": "Kolay", "aciklama": "Antoine de Saint-Exupéry'nin eseri." },
+  { "id": 36, "kategori": "Kitap", "emojiler": "\ud83d\udcd6\ud83d\udd19", "cevap": "Sefiller", "zorluk": "Zor", "aciklama": "Victor Hugo'nun ünlü romanı." },
+  { "id": 37, "kategori": "Kitap", "emojiler": "\ud83d\udcda\ud83c\udf0d", "cevap": "İnsanlıkHali", "zorluk": "Orta", "aciklama": "Bir felsefi eser." },
+  { "id": 38, "kategori": "Kitap", "emojiler": "\ud83d\udcda\ud83c\udff5", "cevap": "OtomatikPortakal", "zorluk": "Zor", "aciklama": "Anthony Burgess'in distopik romanı." },
+  { "id": 39, "kategori": "Kitap", "emojiler": "\ud83d\udcda\ud83c\udf9d", "cevap": "Fahrenheit451", "zorluk": "Zor", "aciklama": "Ray Bradbury'nin klasik distopik eseri." },
+  { "id": 40, "kategori": "Kitap", "emojiler": "\ud83d\udcda\ud83c\udfae", "cevap": "BirGün", "zorluk": "Orta", "aciklama": "Aslı Erdoğan'ın romanı." },
+{ "id": 41, "kategori": "Hayvan", "emojiler": "\ud83d\udc3e\u2b50\u200d\u26ab", "cevap": "Aslan", "zorluk": "Kolay", "aciklama": "Afrika'nın vahşi doğasında yaşayan bir kedi türü." },
+  { "id": 42, "kategori": "Hayvan", "emojiler": "\ud83d\udc35\u2b06", "cevap": "Kedi", "zorluk": "Kolay", "aciklama": "Evcil bir memeli hayvan." },
+  { "id": 43, "kategori": "Hayvan", "emojiler": "\ud83d\udc37\ud83d\udc35", "cevap": "Köpek", "zorluk": "Kolay", "aciklama": "Evcil dostlarımızdan biri." },
+  { "id": 44, "kategori": "Hayvan", "emojiler": "\ud83d\udc2e\u2b06", "cevap": "Kaplan", "zorluk": "Zor", "aciklama": "Büyük bir kedi türüdür." },
+  { "id": 45, "kategori": "Hayvan", "emojiler": "\ud83d\udc06\ud83d\udc29", "cevap": "Yılan", "zorluk": "Kolay", "aciklama": "Sürüngen hayvan türüdür." },
+  { "id": 46, "kategori": "Hayvan", "emojiler": "\ud83d\udc0d\u2b06", "cevap": "Dolphin", "zorluk": "Orta", "aciklama": "Akdeniz'de yaygın olan deniz memelisi." },
+  { "id": 47, "kategori": "Hayvan", "emojiler": "\ud83d\udc00\u2708", "cevap": "Kartal", "zorluk": "Zor", "aciklama": "Büyük bir kuş türüdür." },
+  { "id": 48, "kategori": "Hayvan", "emojiler": "\ud83d\udc28\ud83d\udc37", "cevap": "Zebra", "zorluk": "Kolay", "aciklama": "Beyaz-siyah çizgili bir hayvan." },
+  { "id": 49, "kategori": "Hayvan", "emojiler": "\ud83d\udc2f\u26a0\u200d\u2642", "cevap": "Köpekbalığı", "zorluk": "Zor", "aciklama": "Denizlerde yaşayan etobur balık." },
+  { "id": 50, "kategori": "Hayvan", "emojiler": "\ud83d\udc34\ud83d\udc36", "cevap": "Ayı", "zorluk": "Kolay", "aciklama": "Kuzey yarımkürede bulunan büyük etçil memeli." },
+  
+  { "id": 51, "kategori": "Ülke", "emojiler": "\ud83c\uddf8\ud83c\uddec", "cevap": "Türkiye", "zorluk": "Kolay", "aciklama": "Avrasya'da yer alan bir ülke." },
+  { "id": 52, "kategori": "Ülke", "emojiler": "\ud83c\udf0f\ud83c\uddec", "cevap": "Fransa", "zorluk": "Kolay", "aciklama": "Batı Avrupa'da bir ülke." },
+  { "id": 53, "kategori": "Ülke", "emojiler": "\ud83c\uddf0\ud83c\uddec", "cevap": "Almanya", "zorluk": "Kolay", "aciklama": "Orta Avrupa'da yer alan bir ülke." },
+  { "id": 54, "kategori": "Ülke", "emojiler": "\ud83c\udf0d\ud83c\uddfa", "cevap": "Amerika", "zorluk": "Kolay", "aciklama": "Kuzey Amerika'da bir ülke." },
+  { "id": 55, "kategori": "Ülke", "emojiler": "\ud83c\udf99\ud83c\uddf2", "cevap": "Japonya", "zorluk": "Kolay", "aciklama": "Doğu Asya'da bir ada ülkesi." },
+  { "id": 56, "kategori": "Ülke", "emojiler": "\ud83c\udf1e\ud83c\uddec", "cevap": "Brezilya", "zorluk": "Orta", "aciklama": "Güney Amerika'nın en büyük ülkesi." },
+  { "id": 57, "kategori": "Ülke", "emojiler": "\ud83c\udf0d\ud83c\uddf7", "cevap": "Kanada", "zorluk": "Orta", "aciklama": "Kuzey Amerika'da geniş bir ülke." },
+  { "id": 58, "kategori": "Ülke", "emojiler": "\ud83c\udf99\ud83c\udff7", "cevap": "İtalya", "zorluk": "Kolay", "aciklama": "Güney Avrupa'da bir ülke." },
+  { "id": 59, "kategori": "Ülke", "emojiler": "\ud83c\uddf8\ud83c\uddec", "cevap": "İspanya", "zorluk": "Orta", "aciklama": "Batı Avrupa'da yer alan bir ülke." },
+  { "id": 60, "kategori": "Ülke", "emojiler": "\ud83c\udf0f\ud83c\udf10", "cevap": "Rusya", "zorluk": "Zor", "aciklama": "Dünyanın en büyük yüzölçümüne sahip ülkesi." },
+
+  { "id": 61, "kategori": "Şehir", "emojiler": "\ud83c\udf37\u2708", "cevap": "İstanbul", "zorluk": "Kolay", "aciklama": "Türkiye'nin en büyük ve tarihi bir şehir." },
+  { "id": 62, "kategori": "Şehir", "emojiler": "\ud83d\udc8c\ud83c\udfe1", "cevap": "Paris", "zorluk": "Kolay", "aciklama": "Fransa'nın başkenti." },
+  { "id": 63, "kategori": "Şehir", "emojiler": "\ud83d\udcbb\ud83d\udc1e", "cevap": "NewYork", "zorluk": "Kolay", "aciklama": "Amerika'nın en büyük şehirlerinden biri." },
+  { "id": 64, "kategori": "Şehir", "emojiler": "\ud83d\udc67\ud83d\udcd3", "cevap": "Tokyo", "zorluk": "Orta", "aciklama": "Japonya'nın başkenti." },
+  { "id": 65, "kategori": "Şehir", "emojiler": "\ud83c\udf35\ud83c\udf2d", "cevap": "Londra", "zorluk": "Kolay", "aciklama": "Birleşik Krallık'ın başkenti." },
+  { "id": 66, "kategori": "Şehir", "emojiler": "\ud83d\udc5b\ud83c\udf3f", "cevap": "Roma", "zorluk": "Kolay", "aciklama": "İtalya'nın başkenti ve tarihi bir şehir." },
+  { "id": 67, "kategori": "Şehir", "emojiler": "\ud83d\udc8c\ud83c\udf07", "cevap": "Berlin", "zorluk": "Kolay", "aciklama": "Almanya'nın başkenti." },
+  { "id": 68, "kategori": "Şehir", "emojiler": "\ud83c\udf3b\ud83d\udc40", "cevap": "Moskova", "zorluk": "Orta", "aciklama": "Rusya'nın başkenti." },
+  { "id": 69, "kategori": "Şehir", "emojiler": "\ud83c\udf38\ud83d\udc8e", "cevap": "İzmir", "zorluk": "Kolay", "aciklama": "Türkiye'nin batısında yer alan büyük bir şehir." },
+  { "id": 70, "kategori": "Şehir", "emojiler": "\ud83c\udf34\ud83c\udfe2", "cevap": "Barcelona", "zorluk": "Kolay", "aciklama": "İspanya'nın önemli turistik şehirlerinden biri." },
+
+  { "id": 71, "kategori": "Yemek", "emojiler": "\ud83c\udf56", "cevap": "Pizza", "zorluk": "Kolay", "aciklama": "İtalyan mutfağının dünyaca ünlü yemeği." },
+  { "id": 72, "kategori": "Yemek", "emojiler": "\ud83c\udf53", "cevap": "Hamburger", "zorluk": "Kolay", "aciklama": "Amerikan fast-food yemeği." },
+  { "id": 73, "kategori": "Yemek", "emojiler": "\ud83c\udf72", "cevap": "Sushi", "zorluk": "Orta", "aciklama": "Japon mutfağından gelen çiğ balıklı bir yemek." },
+  { "id": 74, "kategori": "Yemek", "emojiler": "\ud83c\udf72\ud83c\udf2e", "cevap": "Makarna", "zorluk": "Kolay", "aciklama": "İtalyan mutfağının bir yemeği." },
+  { "id": 75, "kategori": "Yemek", "emojiler": "\ud83c\udf55", "cevap": "Çay", "zorluk": "Kolay", "aciklama": "Birçok kültürde popüler olan sıcak içecek." },
+  { "id": 76, "kategori": "Yemek", "emojiler": "\ud83c\udf5f", "cevap": "Pasta", "zorluk": "Kolay", "aciklama": "Tatlı bir hamur işi." },
+  { "id": 77, "kategori": "Yemek", "emojiler": "\ud83c\udf7d", "cevap": "Kek", "zorluk": "Kolay", "aciklama": "Tatlı ve yumuşak bir hamur işi." },
+  { "id": 78, "kategori": "Yemek", "emojiler": "\ud83c\udf65", "cevap": "Dondurma", "zorluk": "Kolay", "aciklama": "Soğuk ve tatlı bir tatlı türü." },
+  { "id": 79, "kategori": "Yemek", "emojiler": "\ud83c\udf2f", "cevap": "Köfte", "zorluk": "Kolay", "aciklama": "Kıyma ile yapılan geleneksel bir yemek." },
+  { "id": 80, "kategori": "Yemek", "emojiler": "\ud83c\udf6e", "cevap": "Çorba", "zorluk": "Kolay", "aciklama": "Sıcak yemeklerden biri." },
+    { "id": 81, "kategori": "Yemek", "emojiler": "\ud83c\udf73", "cevap": "Börek", "zorluk": "Kolay", "aciklama": "Yufka ile yapılan bir yemek." },
+  { "id": 82, "kategori": "Yemek", "emojiler": "\ud83c\udf75", "cevap": "Simit", "zorluk": "Kolay", "aciklama": "Sesli ve yuvarlak şekilli bir ekmek türü." },
+  { "id": 83, "kategori": "Yemek", "emojiler": "\ud83c\udf74", "cevap": "Pide", "zorluk": "Kolay", "aciklama": "Uzun şekilli bir ekmek üzerine çeşitli malzemelerle yapılan yemek." },
+  { "id": 84, "kategori": "Yemek", "emojiler": "\ud83c\udf69", "cevap": "Tavuk", "zorluk": "Kolay", "aciklama": "Kanatlı bir et türü." },
+  { "id": 85, "kategori": "Yemek", "emojiler": "\ud83c\udf60", "cevap": "Pilav", "zorluk": "Kolay", "aciklama": "Pirinçle yapılan bir yemek." },
+  { "id": 86, "kategori": "Yemek", "emojiler": "\ud83c\udf65", "cevap": "Meyve", "zorluk": "Kolay", "aciklama": "Doğal ve tatlı yenilebilir bitkiler." },
+  { "id": 87, "kategori": "Yemek", "emojiler": "\ud83c\udf7b", "cevap": "Kavurma", "zorluk": "Kolay", "aciklama": "Etin kavrulmuş hali." },
+  { "id": 88, "kategori": "Yemek", "emojiler": "\ud83c\udf78", "cevap": "Dolma", "zorluk": "Kolay", "aciklama": "İç malzeme ile doldurulmuş sebzeler." },
+  { "id": 89, "kategori": "Yemek", "emojiler": "\ud83c\udf82", "cevap": "Kısır", "zorluk": "Orta", "aciklama": "Bulgur ve çeşitli malzemelerle yapılan bir yemek." },
+  { "id": 90, "kategori": "Yemek", "emojiler": "\ud83c\udf6f", "cevap": "Lahmacun", "zorluk": "Kolay", "aciklama": "İnce hamurun üzerine etli harç konarak yapılan bir yemek." },
+
+  { "id": 91, "kategori": "Film", "emojiler": "\ud83c\udf7e", "cevap": "Titanik", "zorluk": "Orta", "aciklama": "Büyük bir felaketi anlatan ünlü bir film." },
+  { "id": 92, "kategori": "Film", "emojiler": "\ud83d\udc51\ud83d\udc88", "cevap": "Avengers", "zorluk": "Kolay", "aciklama": "Marvel kahramanlarının bir araya geldiği film serisi." },
+  { "id": 93, "kategori": "Film", "emojiler": "\ud83d\udc81\ud83d\udc80", "cevap": "Matrix", "zorluk": "Zor", "aciklama": "Bilim kurgu türünde, sanal gerçeklik temalı bir film." },
+  { "id": 94, "kategori": "Film", "emojiler": "\ud83d\udc6f\u200d\u2642\u200d\u2708", "cevap": "Avatar", "zorluk": "Orta", "aciklama": "Yabancı bir gezegende geçen epik bir bilim kurgu filmi." },
+  { "id": 95, "kategori": "Film", "emojiler": "\ud83c\udf4c\ud83c\udf55", "cevap": "Shrek", "zorluk": "Kolay", "aciklama": "Yeşil bir devin maceralarını konu alan animasyon film." },
+  { "id": 96, "kategori": "Film", "emojiler": "\ud83d\udc7f\ud83d\udc4f", "cevap": "Joker", "zorluk": "Orta", "aciklama": "Batman'in en büyük düşmanı Joker'in hikayesi." },
+  { "id": 97, "kategori": "Film", "emojiler": "\ud83c\udf0e\ud83c\udfa7", "cevap": "Inception", "zorluk": "Zor", "aciklama": "Rüya içinde rüya konseptiyle karmaşık bir film." },
+  { "id": 98, "kategori": "Film", "emojiler": "\ud83c\udf7b\u26a1", "cevap": "StarWars", "zorluk": "Kolay", "aciklama": "Uzayda geçen bir bilim kurgu destanı." },
+  { "id": 99, "kategori": "Film", "emojiler": "\ud83d\udc40\u2764", "cevap": "ForrestGump", "zorluk": "Kolay", "aciklama": "Büyük bir insanlık hikayesini anlatan film." },
+  { "id": 100, "kategori": "Film", "emojiler": "\ud83d\udc9c\u2b50", "cevap": "PulpFiction", "zorluk": "Zor", "aciklama": "Yönetmeni Quentin Tarantino olan suç filmi." },
+    { "id": 101, "kategori": "Film", "emojiler": "\ud83d\udc6e\u200d\u2642", "cevap": "Rocky", "zorluk": "Kolay", "aciklama": "Boksör Rocky Balboa'nın mücadelesini konu alan film." },
+  { "id": 102, "kategori": "Film", "emojiler": "\ud83d\udc6f\u200d\u2640", "cevap": "WonderWoman", "zorluk": "Orta", "aciklama": "DC Comics kahramanı Wonder Woman'ın maceraları." },
+  { "id": 103, "kategori": "Film", "emojiler": "\ud83c\udfae", "cevap": "TheGodfather", "zorluk": "Zor", "aciklama": "Bir mafya ailesinin hikayesini anlatan film." },
+  { "id": 104, "kategori": "Film", "emojiler": "\ud83d\udc7e", "cevap": "PulpFiction", "zorluk": "Zor", "aciklama": "Quentin Tarantino'nun klasikleşmiş suç filmi." },
+  { "id": 105, "kategori": "Film", "emojiler": "\ud83d\udc7f\u200d\u2642", "cevap": "TheDarkKnight", "zorluk": "Kolay", "aciklama": "Batman'in Joker ile savaşını anlatan film." },
+  { "id": 106, "kategori": "Film", "emojiler": "\ud83c\udfa5", "cevap": "Gladiator", "zorluk": "Orta", "aciklama": "Roma İmparatorluğu'nda bir gladyatörün intikam hikayesi." },
+  { "id": 107, "kategori": "Film", "emojiler": "\ud83c\udfa2", "cevap": "Interstellar", "zorluk": "Zor", "aciklama": "Uzayda geçen bir bilim kurgu filmi." },
+  { "id": 108, "kategori": "Film", "emojiler": "\ud83d\udc6d", "cevap": "TheMatrix", "zorluk": "Orta", "aciklama": "Sanaldan gerçekliğe geçişin anlatıldığı bilim kurgu filmi." },
+  { "id": 109, "kategori": "Film", "emojiler": "\ud83d\udc9b", "cevap": "LaLaLand", "zorluk": "Orta", "aciklama": "Bir aşk hikayesi ve müzikal." },
+  { "id": 110, "kategori": "Film", "emojiler": "\ud83d\udc40", "cevap": "ShutterIsland", "zorluk": "Zor", "aciklama": "Bir akıl hastanesinde geçen gizemli bir hikaye." },
+
+  { "id": 111, "kategori": "Yemek", "emojiler": "\ud83c\udf7d", "cevap": "Makarna", "zorluk": "Kolay", "aciklama": "İtalyan mutfağının temel yemeklerinden biri." },
+  { "id": 112, "kategori": "Yemek", "emojiler": "\ud83c\udf59", "cevap": "Baklava", "zorluk": "Kolay", "aciklama": "Türk mutfağının ünlü tatlısı." },
+  { "id": 113, "kategori": "Yemek", "emojiler": "\ud83c\udf6f", "cevap": "İskender", "zorluk": "Kolay", "aciklama": "Döner etinin yoğurt ve tereyağı ile sunulduğu yemek." },
+  { "id": 114, "kategori": "Yemek", "emojiler": "\ud83c\udf6c", "cevap": "Kumpir", "zorluk": "Kolay", "aciklama": "Fırınlanmış patatesin çeşitli malzemelerle doldurulması." },
+  { "id": 115, "kategori": "Yemek", "emojiler": "\ud83c\udf6e", "cevap": "Kuymak", "zorluk": "Kolay", "aciklama": "Karadeniz yöresine ait mısır unlu yemek." },
+  { "id": 116, "kategori": "Yemek", "emojiler": "\ud83c\udf66", "cevap": "Börek", "zorluk": "Kolay", "aciklama": "İçinde peynir veya et bulunan ince yufkalarla yapılan yemek." },
+  { "id": 117, "kategori": "Yemek", "emojiler": "\ud83c\udf7a", "cevap": "Kısır", "zorluk": "Kolay", "aciklama": "Bulgur, domates, salatalık ve baharatla yapılan salata." },
+  { "id": 118, "kategori": "Yemek", "emojiler": "\ud83c\udf73", "cevap": "Meze", "zorluk": "Kolay", "aciklama": "Türk mutfağının küçük porsiyonlu yemekleri." },
+  { "id": 119, "kategori": "Yemek", "emojiler": "\ud83c\udf65", "cevap": "Kısır", "zorluk": "Kolay", "aciklama": "Bulgur, domates ve baharat karışımı." },
+  { "id": 120, "kategori": "Yemek", "emojiler": "\ud83c\udf75", "cevap": "Köfte", "zorluk": "Kolay", "aciklama": "Kıyma ile yapılan geleneksel bir yemek." },
+
+  { "id": 121, "kategori": "Yemek", "emojiler": "\ud83c\udf7e", "cevap": "Salata", "zorluk": "Kolay", "aciklama": "Genellikle sebzelerle yapılan sağlıklı bir yemek." },
+  { "id": 122, "kategori": "Yemek", "emojiler": "\ud83c\udf7f", "cevap": "Döner", "zorluk": "Kolay", "aciklama": "Dikey şekilde pişirilen et yemeği." },
+  { "id": 123, "kategori": "Yemek", "emojiler": "\ud83c\udf6d", "cevap": "Çörek", "zorluk": "Kolay", "aciklama": "Genellikle tatlı malzemelerle yapılan hamur işi." },
+  { "id": 124, "kategori": "Yemek", "emojiler": "\ud83c\udf7d", "cevap": "Zeytinyağlı", "zorluk": "Kolay", "aciklama": "Zeytinyağında pişirilmiş sebze yemekleri." },
+  { "id": 125, "kategori": "Yemek", "emojiler": "\ud83c\udf2f", "cevap": "Kısır", "zorluk": "Kolay", "aciklama": "Bulgur ve yeşilliklerle yapılan bir yemek." },
+  { "id": 126, "kategori": "Yemek", "emojiler": "\ud83c\udf72", "cevap": "MeyveSalatası", "zorluk": "Kolay", "aciklama": "Çeşitli meyvelerin karıştırıldığı tatlı." },
+  { "id": 127, "kategori": "Yemek", "emojiler": "\ud83c\udf6b", "cevap": "Kumpir", "zorluk": "Kolay", "aciklama": "Fırınlanmış patatesin içine konulan malzemelerle yapılan yemek." },
+  { "id": 128, "kategori": "Yemek", "emojiler": "\ud83c\udf77", "cevap": "Baklava", "zorluk": "Kolay", "aciklama": "Tatlı, şerbetli bir hamur işi." },
+  { "id": 129, "kategori": "Yemek", "emojiler": "\ud83c\udf56", "cevap": "Kumpir", "zorluk": "Kolay", "aciklama": "Fırınlanmış patatesin üzerine çeşit çeşit malzeme eklenerek yapılan yemek." },
+  { "id": 130, "kategori": "Yemek", "emojiler": "\ud83c\udf65", "cevap": "Çorba", "zorluk": "Kolay", "aciklama": "Sıcak ve genellikle sebzelerden yapılan içecek." },
+   { "id": 131, "kategori": "Yemek", "emojiler": "\ud83c\udf5f", "cevap": "Fırın", "zorluk": "Kolay", "aciklama": "Fırında pişirilen yemekler." },
+  { "id": 132, "kategori": "Yemek", "emojiler": "\ud83c\udf56", "cevap": "Karnıbahar", "zorluk": "Orta", "aciklama": "Sebze, genellikle zeytinyağlı yapılır." },
+  { "id": 133, "kategori": "Yemek", "emojiler": "\ud83c\udf5c", "cevap": "Köfte", "zorluk": "Kolay", "aciklama": "Kıyma ile yapılan geleneksel bir yemek." },
+  { "id": 134, "kategori": "Yemek", "emojiler": "\ud83c\udf63", "cevap": "Mantar", "zorluk": "Kolay", "aciklama": "Meyve şeklinde yer altı organı." },
+  { "id": 135, "kategori": "Yemek", "emojiler": "\ud83c\udf5a", "cevap": "Pide", "zorluk": "Kolay", "aciklama": "İç harç ile yapılan uzun şekilli ekmek." },
+  { "id": 136, "kategori": "Yemek", "emojiler": "\ud83c\udf6f", "cevap": "Sarma", "zorluk": "Orta", "aciklama": "Dondurulmuş veya taze yapraklarla yapılan yemek." },
+  { "id": 137, "kategori": "Yemek", "emojiler": "\ud83c\udf7c", "cevap": "Börek", "zorluk": "Kolay", "aciklama": "Yufka veya hamurla yapılan bir yemek." },
+  { "id": 138, "kategori": "Yemek", "emojiler": "\ud83c\udf4e", "cevap": "Mısır", "zorluk": "Kolay", "aciklama": "Bir tahıl türü." },
+  { "id": 139, "kategori": "Yemek", "emojiler": "\ud83c\udf6b", "cevap": "Salata", "zorluk": "Kolay", "aciklama": "Farklı malzemelerle hazırlanan sağlıklı yemek." },
+  { "id": 140, "kategori": "Yemek", "emojiler": "\ud83c\udf7b", "cevap": "Sübye", "zorluk": "Kolay", "aciklama": "Deniz ürünü olan yumuşak dokulu bir besin." },
+
+  { "id": 141, "kategori": "Yemek", "emojiler": "\ud83c\udf79", "cevap": "Şiş", "zorluk": "Orta", "aciklama": "Kebap türlerinden birisi, etin şişe geçirilmesiyle yapılır." },
+  { "id": 142, "kategori": "Yemek", "emojiler": "\ud83c\udf75", "cevap": "Tarator", "zorluk": "Kolay", "aciklama": "Yoğurt, ceviz ve zeytinyağı ile yapılan soğuk mezelerden biri." },
+  { "id": 143, "kategori": "Yemek", "emojiler": "\ud83c\udf68", "cevap": "Lahmacun", "zorluk": "Kolay", "aciklama": "Fırında pişirilen ince hamur üzerine etli harç konarak yapılan yemek." },
+  { "id": 144, "kategori": "Yemek", "emojiler": "\ud83c\udf69", "cevap": "Kısır", "zorluk": "Kolay", "aciklama": "Bulgur, yeşillikler ve baharatlar ile yapılan bir salata." },
+  { "id": 145, "kategori": "Yemek", "emojiler": "\ud83c\udf7f", "cevap": "Dondurma", "zorluk": "Kolay", "aciklama": "Soğuk tatlı, genellikle sütlü olur." },
+  { "id": 146, "kategori": "Yemek", "emojiler": "\ud83c\udf70", "cevap": "Çörek", "zorluk": "Kolay", "aciklama": "Tatlı veya tuzlu hamur işi." },
+  { "id": 147, "kategori": "Yemek", "emojiler": "\ud83c\udf77", "cevap": "Kadayıf", "zorluk": "Kolay", "aciklama": "Şerbetli tatlı, ince tel kadayıfla yapılır." },
+  { "id": 148, "kategori": "Yemek", "emojiler": "\ud83c\udf73", "cevap": "Meyve", "zorluk": "Kolay", "aciklama": "Doğal ve tatlı yenilebilir bitkiler." },
+  { "id": 149, "kategori": "Yemek", "emojiler": "\ud83c\udf65", "cevap": "Tuzlu", "zorluk": "Kolay", "aciklama": "Bir tat olarak tuzlu yemek." },
+  
+  { "id": 150, "kategori": "Film", "emojiler": "\ud83c\udf7e", "cevap": "Terminator", "zorluk": "Orta", "aciklama": "Yapay zekaya karşı mücadele edilen bir film." },
+  { "id": 151, "kategori": "Film", "emojiler": "\ud83d\udc81", "cevap": "Deadpool", "zorluk": "Orta", "aciklama": "Marvel karakteri Deadpool'un hikayesi." },
+  { "id": 152, "kategori": "Film", "emojiler": "\ud83c\udf81", "cevap": "XMen", "zorluk": "Kolay", "aciklama": "X-Men takımının maceralarını konu alan film serisi." },
+  { "id": 153, "kategori": "Film", "emojiler": "\ud83c\udf7d", "cevap": "Borat", "zorluk": "Orta", "aciklama": "Sacha Baron Cohen'in komedi filmi." },
+  { "id": 154, "kategori": "Film", "emojiler": "\ud83c\udfa0", "cevap": "Saw", "zorluk": "Zor", "aciklama": "Gerilim ve korku filmi." },
+  { "id": 155, "kategori": "Film", "emojiler": "\ud83d\udc97", "cevap": "Coco", "zorluk": "Kolay", "aciklama": "Hayat ve ölüm arasındaki ilişkiyi anlatan animasyon film." },
+  { "id": 156, "kategori": "Film", "emojiler": "\ud83c\udf77", "cevap": "Up", "zorluk": "Kolay", "aciklama": "Yüksek dağlara çıkan bir adamın hikayesi." },
+  { "id": 157, "kategori": "Film", "emojiler": "\ud83c\udfa4", "cevap": "Aladdin", "zorluk": "Kolay", "aciklama": "Genç bir adamın maceralarını anlatan animasyon filmi." },
+  { "id": 158, "kategori": "Film", "emojiler": "\ud83c\udfa2", "cevap": "TheLionKing", "zorluk": "Kolay", "aciklama": "Popüler animasyon filmi, bir aslanın hikayesi." },
+  { "id": 159, "kategori": "Film", "emojiler": "\ud83c\udf76", "cevap": "Frozen", "zorluk": "Kolay", "aciklama": "Buzları kırarak özgürlüğü kazanan kız kardeşlerin hikayesi." },
+  { "id": 160, "kategori": "Film", "emojiler": "\ud83d\udc6f", "cevap": "Jumanji", "zorluk": "Orta", "aciklama": "Bir masa oyununda tuzağa düşen insanlar." }
+
+]
 }

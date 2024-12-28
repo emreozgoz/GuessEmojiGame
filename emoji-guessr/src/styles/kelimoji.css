@@ -479,3 +479,217 @@
     font-size: 1.1em;
   }
 }
+@media (max-width: 600px) {
+  .wordle-container {
+    padding: 10px;
+    border-radius: 0;
+    min-height: calc(100vh - 20px);
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .oyun-bilgileri {
+    margin: 5px;
+    padding: 10px;
+    max-width: calc(100% - 10px);
+  }
+
+  .emojiler {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .ipucu-container {
+    gap: 4px;
+    padding: 5px;
+  }
+
+  .kategori, .zorluk, .aciklama {
+    font-size: 0.85em;
+    padding: 4px 8px;
+  }
+
+  .tahminler {
+    gap: 4px;
+    margin: 15px 0;
+  }
+
+  .tahmin-satiri {
+    gap: 4px;
+  }
+
+  .harf {
+    width: 32px;
+    height: 32px;
+    font-size: 1em;
+    border-width: 1px;
+    border-radius: 6px;
+  }
+
+  .klavye {
+    margin: 15px auto;
+    padding: 8px;
+    max-width: calc(100% - 16px);
+  }
+
+  .klavye-satiri {
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+
+  .klavye-tus {
+    min-width: 25px;
+    height: 35px;
+    font-size: 0.8em;
+    border-radius: 4px;
+  }
+
+  .klavye-tus.genis-tus {
+    min-width: 45px;
+    font-size: 0.75em;
+  }
+
+  .kalan-tahmin {
+    margin: 10px 0;
+    font-size: 0.9em;
+    padding: 6px 12px;
+  }
+
+  /* Popup mobil optimizasyonu */
+  .popup {
+    padding: 15px;
+    width: 85%;
+    max-width: 280px;
+  }
+
+  .popup-emoji {
+    font-size: 2.2em;
+    margin-bottom: 8px;
+  }
+
+  .popup-baslik {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+  }
+
+  .popup-mesaj {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .yeni-oyun-btn {
+    padding: 8px 20px;
+    font-size: 1em;
+  }
+}
+
+/* Çok küçük ekranlar için ek optimizasyonlar */
+@media (max-width: 320px) {
+  .harf {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9em;
+  }
+
+  .klavye-tus {
+    min-width: 22px;
+    height: 32px;
+    font-size: 0.75em;
+  }
+
+  .klavye-tus.genis-tus {
+    min-width: 40px;
+    font-size: 0.7em;
+  }
+
+  .emojiler {
+    font-size: 2em;
+  }
+
+  .kategori, .zorluk, .aciklama {
+    font-size: 0.8em;
+    padding: 3px 6px;
+  }
+}
+
+/* iPhone SE gibi küçük ekranlar için ek optimizasyonlar */
+@media (max-width: 375px) and (max-height: 667px) {
+  .wordle-container {
+    padding: 5px;
+  }
+
+  .oyun-bilgileri {
+    margin: 3px;
+    padding: 8px;
+  }
+
+  .emojiler {
+    font-size: 1.8em;
+    margin-bottom: 8px;
+  }
+
+  .harf {
+    width: 30px;
+    height: 30px;
+  }
+
+  .klavye {
+    padding: 5px;
+    margin: 10px auto;
+  }
+
+  .klavye-tus {
+    height: 32px;
+  }
+
+  .kalan-tahmin {
+    margin: 8px 0;
+    padding: 4px 10px;
+    font-size: 0.85em;
+  }
+}
+
+/* Yatay mod (landscape) optimizasyonu */
+@media (max-height: 450px) and (orientation: landscape) {
+  .wordle-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .oyun-bilgileri {
+    margin: 3px;
+    padding: 5px;
+  }
+
+  .emojiler {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+  }
+
+  .tahminler {
+    margin: 8px 0;
+  }
+
+  .harf {
+    width: 25px;
+    height: 25px;
+    font-size: 0.9em;
+  }
+
+  .klavye {
+    margin: 8px auto;
+    padding: 4px;
+  }
+
+  .klavye-tus {
+    height: 28px;
+    min-width: 25px;
+  }
+
+  .kalan-tahmin {
+    margin: 5px 0;
+  }
+}
