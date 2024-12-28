@@ -1,0 +1,86 @@
+.wordle-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.soru {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.tahminler {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.tahmin-satiri {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.harf {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  font-weight: bold;
+}
+
+.harf.dogru {
+  background-color: #6aaa64;
+  color: white;
+}
+
+.harf.var {
+  background-color: #c9b458;
+  color: white;
+}
+
+.harf.yanlis {
+  background-color: #787c7e;
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 8px;
+  font-size: 1.1em;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1.1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.sonuc {
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.kazandi {
+  color: #6aaa64;
+}
+
+.kaybetti {
+  color: #dc3545;
+} 
